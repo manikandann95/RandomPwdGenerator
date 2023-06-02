@@ -1,5 +1,5 @@
 # RandomPwdGenerator
-Creates Random Password with Alpha Numeric and Symbols
+Creates Random Password with Alpha Numeric and Symbols with custom range
 
 ```python
 import random
