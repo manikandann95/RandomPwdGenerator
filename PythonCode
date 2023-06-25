@@ -1,9 +1,9 @@
-import random
-import string
+import random as r
+import string as s
 
-symbols = string.ascii_letters + string.digits + string.punctuation
-secure_random = random.SystemRandom()
-password = "".join(secure_random.choice(symbols)
-for i in range(20))
+symbols = s.ascii_letters + s.digits + s.punctuation
 
-print(password)
+pswd = "".join(r.SystemRandom.choice(symbols)
+for i in range(10))
+
+print(pswd)
